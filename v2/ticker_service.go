@@ -48,6 +48,7 @@ type BookTicker struct {
 	BidQuantity string `json:"bidQty"`
 	AskPrice    string `json:"askPrice"`
 	AskQuantity string `json:"askQty"`
+	Time        uint64 `json:"time"`
 }
 
 // ListPricesService list latest price for a symbol or symbols
